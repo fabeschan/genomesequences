@@ -15,20 +15,18 @@ using namespace std;
 
 class match {
     public:
-        match(int, int, int, int);
-
         int ai;
         int aj;
         int bi;
         int bj;
-};
 
-match::match(int gai, int gaj, int gbi, int gbj){
-    ai = gai;
-    aj = gaj;
-    bi = gbi;
-    bj = gbj;
-}
+        match(int gai, int gaj, int gbi, int gbj){
+            ai = gai;
+            aj = gaj;
+            bi = gbi;
+            bj = gbj;
+        }
+};
 
 typedef std::unordered_map<string, list<match> > umap;
 
