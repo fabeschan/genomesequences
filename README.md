@@ -3,6 +3,7 @@
 ####ECE358 End of Semester Exercise
 
 *Bonus: Finding Maximal Matches in O(n) Time (Done) *
+
 *Bonus: Edit Distance Aligner in O(n) Space (Done)*
 
 
